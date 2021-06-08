@@ -91,7 +91,7 @@ border-radius: 9px !important; top: 8px; left: 9px !important;margin-right: 6px 
 /*Vizualización correcta del porcentaje de zoom mostrado en la urlbar*/
 #urlbar-zoom-button {padding: 0px 2px !important; margin: 2px !important;}
 
-.tab-label[selected="true"] {text-shadow: none !important}
+.tab-label{text-shadow: none !important}
 
 /* Reduce spacing between pinned and regular tabs */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[first-visible-unpinned-tab] { 

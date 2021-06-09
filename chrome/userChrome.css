@@ -75,7 +75,7 @@ border-radius: 9px !important; top: 8px; left: 9px !important;margin-right: 6px 
      color: var(--lwt-text-color) !important;  background-color: transparent !important;}   
 
 /*ícono hover*/
-.tab-icon-overlay[soundplaying]:hover, .tab-icon-overlay[muted]:hover, .tab-icon-overlay[activemedia-blocked]:hover { 
+.tab-icon-overlay:not([pinned])[soundplaying]:hover, .tab-icon-overlay:not([pinned])[muted]:hover, .tab-icon-overlay:not([pinned])[activemedia-blocked]:hover { 
  stroke: white !important; color: black !important; fill-opacity: 1 !important; transform: scale(1.1) !important; transition-duration: 150ms !important; box-shadow: 1px 0px 1px 0px !important;}
 
 .tab-icon-overlay:is([pinned]):not([selected="true"]){top: 8px !important; left: 9px !important; stroke: transparent !important; color: var(--lwt-text-color) !important;
@@ -98,13 +98,13 @@ border-radius: 9px !important; top: 8px; left: 9px !important;margin-right: 6px 
  margin-inline-start: 0px !important; }
 
 /* Menu items border and padding */
-menupopup > menuitem, menupopup > menu { border-radius: 4px !important; margin-left: 8px !important; margin-right: 8px !important;  
+menupopup > menuitem, menupopup > menu { border-radius: 4px !important; margin-left: 6px !important; margin-right: 6px !important;  
   padding-inline-start: 0.5em !important}
 
 /*borde izquierda y derecha del menú contextual*/
-menugroup > menuitem:first-child {padding-left: 8px !important;} 
-menugroup > menuitem:last-child { padding-right: 8px !important;}
+menugroup > menuitem:first-child {padding-left: 6px !important;} 
+menugroup > menuitem:last-child { padding-right: 6px !important;}
 /* context menu top buttons radius */
 menugroup > menuitem { border-radius: 4px !important;}
 menugroup > menuitem > hbox > image { border-radius: 4px !important;}
-menuseparator { padding: 0 !important; margin-left: 8px !important; margin-right: 8px !important;}
+menuseparator { padding: 0 !important; margin-left: 6px !important; margin-right: 6px !important;}

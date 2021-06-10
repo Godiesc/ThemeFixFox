@@ -50,7 +50,7 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 
 /*Label de medios "Reproduciendo" modifiado*/
 .tab-secondary-label:is([soundplaying], [pictureinpicture]) {display: -moz-box !important; margin-top: -1px !important; margin-bottom: 1px !important; 
- margin-left: 10px !important; text-shadow: none !important; font-weight: bold;}
+ margin-left: 11px !important; text-shadow: none !important; font-weight: bold;}
 .tab-secondary-label:is([muted], [activemedia-blocked]){display: none !important;}
 
 /*ícono de sonido simpre visible en pestañas con sonido, sin dejar de mostrar el favicon*/

@@ -41,8 +41,8 @@ description#identity-popup-content-owner-label, description#identity-popup-conte
 /*rework en la Linea de Contenedores*/
 tab:not([pinned])[selected] .tab-context-line {max-width: 28px !important; height: 2px !important; margin-left: 2px !important; margin-bottom: 0px !important;
   -moz-box-ordinal-group: 2 !important; opacity: 1 !important; transition-duration: 200ms !important;}
-tab:not([pinned]) .tab-context-line {max-width: 4px !important; height: 4px !important; margin-left: 14px !important; margin-bottom: 0px !important;
-  -moz-box-ordinal-group: 2 !important; opacity: 1 !important; transition-duration: 50ms !important;}
+tab:not([pinned]) .tab-context-line {max-width: 16px !important; height: 2px !important; margin-left: 8px !important; margin-bottom: 0px !important;
+  -moz-box-ordinal-group: 2 !important; opacity: 1 !important;}
 tab:is([pinned])[selected] .tab-context-line {max-width: 32px !important; height: 2px !important; margin-bottom: 0px !important;
   -moz-box-ordinal-group: 2 !important; opacity: 1 !important;  transition-duration: 120ms !important;}
 tab:is([pinned]):not([selected]) .tab-context-line {max-width: 4px !important; height: 4px !important; margin-left: 16px !important;margin-bottom: 0px !important;
@@ -69,7 +69,7 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 4px !important; h
 border-radius: 9px !important; top: 8px; left: 9px !important;margin-right: 6px !important;}
     /*muteado seleccionado*/
     .tab-icon-overlay[selected="true"][muted]:not([pinned]) , .tab-icon-overlay[activemedia-blocked][selected="true"]:not([pinned]) {
-     color: var(--lwt-tab-text) !important; background-color: transparent !important;}
+     color: var(--lwt-tab-text) !important; background-color: VAR(--lwt-selected-tab-background-color) !important;}
     /*muteado no seleccionado*/
     .tab-icon-overlay:not([pinned])[selected="true"])[muted], .tab-icon-overlay:not([pinned][selected="true"])[activemedia-blocked] {
      color: var(--lwt-text-color) !important;  background-color: transparent !important;}   

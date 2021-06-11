@@ -50,15 +50,15 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 
 /*Label de medios "Reproduciendo" modifiado*/
 .tab-secondary-label:is([soundplaying], [pictureinpicture]) {display: -moz-box !important; margin-top: -1px !important; margin-bottom: 1px !important; 
- margin-left: 11px !important; text-shadow: none !important; font-weight: bold;}
+ margin-left: 12px !important; text-shadow: none !important; font-weight: bold;}
 .tab-secondary-label:is([muted], [activemedia-blocked]){display: none !important;}
 
 /*ícono de sonido simpre visible en pestañas con sonido, sin dejar de mostrar el favicon*/
 .tab-icon-image:not([pinned]){ opacity: 1 !important;}
-.tab-icon-overlay{height: 12px !important; width: 12px !important; z-index: 1 ; padding: 0px !important;}
+.tab-icon-overlay{height: 13px !important; width: 13px !important; z-index: 1 ; padding: 0px !important;}
 
 /*ícono  reproduciendose*/
-.tab-icon-overlay[soundplaying]:not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 9px; left: 19px !important;}
+.tab-icon-overlay[soundplaying]:not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 9px; left: 20px !important;}
     /*reproduciendose y pestaña seleccionada*/
     .tab-icon-overlay[soundplaying][selected="true"] {color: var(--lwt-tab-text) !important; background-color: transparent !important; }
     /*reproduciendose y pestaña no seleccionada*/
@@ -98,13 +98,13 @@ border-radius: 9px !important; top: 8px; left: 9px !important;margin-right: 6px 
  margin-inline-start: 0px !important; }
 
 /* Menu items border and padding */
-menupopup > menuitem, menupopup > menu { border-radius: 4px !important; margin-left: 6px !important; margin-right: 6px !important;  
+menupopup > menuitem, menupopup > menu { border-radius: 4px !important; margin-left: 4px !important; margin-right: 4px !important;  
   padding-inline-start: 0.5em !important}
 
 /*borde izquierda y derecha del menú contextual*/
-menugroup > menuitem:first-child {padding-left: 6px !important;} 
-menugroup > menuitem:last-child { padding-right: 6px !important;}
+menugroup > menuitem:first-child {padding-left: 4px !important;} 
+menugroup > menuitem:last-child { padding-right: 4px !important;}
 /* context menu top buttons radius */
 menugroup > menuitem { border-radius: 4px !important;}
 menugroup > menuitem > hbox > image { border-radius: 4px !important;}
-menuseparator { padding: 0 !important; margin-left: 6px !important; margin-right: 6px !important;}
+menuseparator { padding: 0 !important; margin-left: 4px !important; margin-right: 4px !important;}

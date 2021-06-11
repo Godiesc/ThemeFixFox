@@ -58,11 +58,12 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 .tab-icon-overlay{height: 13px !important; width: 13px !important; z-index: 1 ; padding: 0px !important;}
 
 /*ícono  reproduciendose*/
-.tab-icon-overlay[soundplaying]:not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 9px; left: 20px !important;}
+.tab-icon-overlay:is([sharing],[soundplaying]):not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 9px; left: 20px !important;}
     /*reproduciendose y pestaña seleccionada*/
     .tab-icon-overlay[soundplaying][selected="true"] {color: var(--lwt-tab-text) !important; background-color: transparent !important; }
     /*reproduciendose y pestaña no seleccionada*/
     .tab-icon-overlay:not([selected="true"])[soundplaying] {color: var(--lwt-text-color) !important; background-color: transparent !important}
+.tab-icon-overlay:not([crashed]):is([pinned],[sharing]) {top: 9px !important; stroke: transparent !important;}
 
 /*muteado*/
 .tab-icon-overlay[muted]:not([pinned]) , .tab-icon-overlay[activemedia-blocked]:not([pinned]) {

@@ -35,7 +35,7 @@
 }
 @-moz-document url(chrome://browser/content/browser.xul), url(about:newtab), url(about:home) {  
 body {     
-    --newtab-textbox-background-color: color-mix( in srgb, var(--newtab-background-color) 87%, black ) !important;            /*fondo de la barra de busqueda*/
+    --newtab-textbox-background-color: color-mix( in srgb, var(--newtab-background-color) 95%, var(--newtab-background-primary-text-color) )!important;            /*fondo de la barra de busqueda*/
 
     --newtab-topsites-background-color: #3c3d59aa !important;                                                                 /*fondo de sitios fijados*/
     --newtab-contextmenu-background-color: #262530 !important;                                                                /*contextual menu de tres puntos pinned*/

@@ -1,7 +1,6 @@
 :root{
   --toolbarbutton-inner-padding: 5px !important;
   --proton-tab-block-margin: 3px 3px !important;
-  --tab-block-margin: 3px 3px !important;
   --tab-min-height:  30px !important;
   --tabs-shadow-size: 0px !important;
   --arrowpanel-menuitem-padding: 7px !important;
@@ -11,6 +10,7 @@
   --toolbarbutton-outer-padding: 3px !important;
   --urlbar-popup-url-color: #3399ff !important;
 }
+
 /*"Menú con menos espacios"*/
 menupopup > menuitem, menupopup > menu{ padding-block: 0.3em !important;} 
 
@@ -24,7 +24,7 @@ menupopup > menuitem, menupopup > menu{ padding-block: 0.3em !important;}
 /*"Íconos de la urlbar más pequeños"*/
 .sharing-icon, #permissions-granted-icon, #tracking-protection-icon, .notification-anchor-icon, #blocked-permissions-container 
   > .blocked-permission-icon { margin: 1px !important; padding: 0px !mportant}
-#tracking-protection-icon{height: 14px !important; width :14px !important;padding: 0px !important; margin-left: 1px !important;}
+#tracking-protection-icon{height: 14px !important; width :14px !important; margin-left: 1px !important;}
 
 /*"Color verde del ícono de candado de web segura"*/
 #identity-icon {  width :14px !important;}
@@ -37,11 +37,11 @@ description#identity-popup-content-owner-label, description#identity-popup-conte
 /*"Urlbar y Search-bar más pequeñas"*/
 #urlbar{min-height: 26px !important; margin-block: 0px 0px !important; text-shadow: none !important;}
 #urlbar-background{margin-block: 0px 0px; !important;}
-#urlbar-container{margin-block: 0px 0px;}
+#urlbar-container{ margin-top: 0px !important;margin-bottom: -2px !important;}
 #searchbar {min-height: 26px !important;text-shadow: none !important; margin-block: -3px !important;}
 
 /*rework en la Linea de Contenedores*/
-tab:not([pinned])[selected] .tab-context-line {max-width: 28px !important; height: 2px !important; margin-left: 2px !important; margin-bottom: 0px !important;
+tab:not([pinned])[selected] .tab-context-line {max-width: 27px !important; height: 2px !important; margin-left: 2px !important; margin-bottom: 0px !important;
   -moz-box-ordinal-group: 2 !important; opacity: 1 !important; transition-duration: 200ms !important;}
 tab:not([pinned]) .tab-context-line {max-width: 8px !important; height: 2px !important; margin-left: 12px !important; margin-bottom: 0px !important;
   -moz-box-ordinal-group: 2 !important; opacity: 1 !important;}

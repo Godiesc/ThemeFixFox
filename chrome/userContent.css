@@ -65,10 +65,6 @@ body {
 
 /*color de borde del radio-button en "Personalizar"*/
   .home-section .section .slider:hover {background: #454690 !important;}
-    
-/*Cuadro de busqueda eliminado*/
-  .search-inner-wrapper{ display: none !important; }
-  .outer-wrapper.newtab-experience .search-wrapper {padding-bottom: 0px !important;}
   
 /*color de borde de botones "Guardar" y "Cancelar" :hover*/
 .button:not(.dismiss), .button:focus:not(.dismiss), .actions button:hover:not(.dismiss), .actions button:focus:not(.dismiss) {

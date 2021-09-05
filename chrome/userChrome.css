@@ -51,7 +51,7 @@ tab:is([pinned])[selected] .tab-context-line {max-width: 32px !important; height
 tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; height: 2px !important; margin-left: 14px !important;margin-bottom: 0px !important;
   -moz-box-ordinal-group: 2 !important; opacity: 1 !important;}
 
-//*Label de medios "Reproduciendo" modifiado*/
+/*Label de medios "Reproduciendo" modifiado*/
 .tab-secondary-label:is([soundplaying], [pictureinpicture]) {display: -moz-box !important; margin-top: -3px !important; margin-bottom: 1px !important; 
  margin-left: 12px !important; text-shadow: none !important; font-weight: bold;}
 .tab-secondary-label:is([muted], [activemedia-blocked]){display: none !important;}

@@ -32,9 +32,6 @@ menupopup > menuitem, menupopup > menu{ padding-block: 0.3em !important;}
 description#identity-popup-content-owner-label, description#identity-popup-content-owner, description#identity-popup-content-verifier, #identity-popup-securityView-body > button {
   color: #2cf62c !important;}
 
-/*"ícono de marcadores y vista de lectura más pequeños"*/
-.urlbar-icon {padding: 3px !important;}
-
 /*"Urlbar y Search-bar más pequeñas"*/
 #urlbar{min-height: 26px !important; margin-block: 0px 0px !important; text-shadow: none !important;}
 #urlbar-background{margin-block: 0px 0px; !important;}
@@ -53,7 +50,7 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 
 /*Label de medios "Reproduciendo" modifiado*/
 .tab-secondary-label:is([soundplaying], [pictureinpicture]) {display: -moz-box !important; margin-top: -3px !important; margin-bottom: 1px !important; 
- margin-left: 12px !important; text-shadow: none !important; font-weight: bold;}
+ margin-left: 12px !important; text-shadow: none !important; font-weight: bold}
 .tab-secondary-label:is([muted], [activemedia-blocked]){display: none !important;}
 
 /*ícono de sonido simpre visible en pestañas con sonido, sin dejar de mostrar el favicon*/
@@ -61,7 +58,7 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 .tab-icon-overlay{height: 13px !important; width: 13px !important; z-index: 1 ; padding: 0px !important;}
 
 /*ícono  reproduciendose*/
-.tab-icon-overlay:is([sharing],[soundplaying]):not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 9px; left: 20px !important;}
+.tab-icon-overlay:is([sharing],[soundplaying]):not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 10px; left: 20px !important;}
     /*reproduciendose y pestaña seleccionada*/
     .tab-icon-overlay[soundplaying][selected="true"] {color: var(--lwt-tab-text) !important; background-color: transparent !important; }
     /*reproduciendose y pestaña no seleccionada*/

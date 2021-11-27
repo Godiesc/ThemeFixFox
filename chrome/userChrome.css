@@ -58,7 +58,7 @@ tab:is([pinned]):not([selected]) .tab-context-line {max-width: 8px !important; h
 
 /*ícono de sonido simpre visible en pestañas con sonido, sin dejar de mostrar el favicon*/
 .tab-icon-image:not([pinned]){ opacity: 1 !important;}
-.tab-icon-overlay{height: 13px !important; width: 13px !important; z-index: 1 ; padding: 0px !important;}
+.tab-icon-overlay{height: 13px !important; width: 14px !important; z-index: 1 ; padding: 0px !important;}
 
 /*ícono  reproduciendose*/
 .tab-icon-overlay:is([sharing],[soundplaying]):not([pinned]) {transition-duration: 150ms !important; opacity: 1 !important; border-radius: 9px !important; top: 10px; left: 20px !important;}

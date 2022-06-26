@@ -44,8 +44,6 @@ body {
     --newtab-contextmenu-background-color: red !important;                                                                      /*contextual menu de tres puntos pinned*/
     
     --newtab-element-hover-color: var(--newtab-background-color-secondary) !important;                                          /*color de fondo al hacer clic al menú 3 puntos*/                             
-    --newtab-element-secondary-hover-color: linear-gradient(to left,#1293bd90 5%, #cb2fe17a) !important; 
-    --newtab-element-secondary-active-color: linear-gradient(to left,#1293bdb0 5%, #cb2fe19a) !important;                       /*Color al hacer clic en el menú contextual de 3 puntos*/
     
     --newtab-icon-primary-color:var(--newtab-wordmark-color) !important;                                                         /*tres puntos hover*/ 
     --newtab-border-color: color-mix( in srgb, var(--newtab-background-color) 85%, var(--newtab-wordmark-color)  ) !important;   /*Linea separadora de items de menú contextual*/
@@ -115,7 +113,7 @@ body {
     
 /*colores al pasar el mouse sobre los sitios anclados en :hover*/
 .top-site-outer:is(.active, :focus, :hover) .tile{box-shadow: -1px 0 var(--newtab-background-color), 1px 0 var(--newtab-background-color), 0 -1px var(--newtab-background-color), 0 1px var(--newtab-background-color) !important;
-    background-color: color-mix(in srgb, var(--newtab-background-color,Field) 85%, var(--newtab-wordmark-color) )!important;}
+    background-color: color-mix(in srgb, var(--newtab-background-color,Field) 90%, var(--newtab-wordmark-color) ) !important;}
   
 /*fondo de los favICON de los sitios anclados*/
 .top-site-outer .top-site-icon{background-color: transparent !important; }
